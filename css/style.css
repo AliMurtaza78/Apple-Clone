@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.786);
+    height: 55px;
+    width: auto;
+    color: white;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+}
+ 
+.ac-item{
+    float: left;
+    padding-left: 46px;
+    font-size: 12px;
+}
+
+@media screen and  (max-width: 835px) {
+    .ac-item{
+        display: none;
+    }
+    
+}
+
+.ac-text{ 
+    float: left;
+    font-size: 15px;
+}
+
+.all-items{
+    padding: 6px 6px 6px 6px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    opacity: .8;
+    padding-top: 9px;
+}
+
+.img-icon{
+    height: 17px;
+}
+
+.img-logo{
+    height: 22px;
+    padding-left: 0;
+    padding-bottom: 2px;
+}
+
+@media screen and (max-width:835px) {
+    .img-logo{
+        display: flex;
+        justify-content: center;
+        height: 2em;
+    }
+    
+}
+
+.bag-logo{
+    height: 26px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    opacity: .8;
+    padding-top: 4px;
+}
+
+@media screen and (max-width:835px) {
+    .bag-logo{
+        display: none;
+    }
+}
