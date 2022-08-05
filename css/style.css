@@ -106,23 +106,16 @@ li{
     color: #0066CC;
     text-decoration: none;
 }
-@media screen and (max-width:734) {
-    .uni-logo{
-        display: flex;
-        height: 10px;
-    }
-}
 
 .mac-pic{
     background-image: url(../../Apple-Clone/images/hero_macbookair__el7scava26mq_largetall.png);
-    width: 1;
     background-size: cover;
     background-attachment: initial;
     background-position: center;
     height: 685px;
 }
 
-@media (max-aspect-ratio:16/9) {
+@media (max-width:735px) {
     .mac-pic{
         width:100%;
         height:auto ;
@@ -130,10 +123,9 @@ li{
     
 }
 
-@media (min-aspect-ratio:16/9) {
+@media (min-width:735px) {
     .mac-pic{
         width: auto;
-        height: 100%;
     }
     
 }
@@ -141,21 +133,21 @@ li{
 .line-2{
     display: flex;
     font-size: 2em;
+
     font-weight: bold;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    padding: 5em 0em 0em 10em;
+    padding: 7em 0em 0em 8em;
     opacity: .8;
-    justify-content: center;
+    justify-content: space-evenly
 }
 
 .learn-more{
     display: flex;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-weight: bold;
-    justify-content: center;
-    padding-top: 2em;
+    padding-top: 18em;
     gap: 60px;
-    padding-left: 17em;
+    padding-left: 13em;
     opacity: .8;
 }
 
