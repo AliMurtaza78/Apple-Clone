@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     margin: 0px;
-    padding: 0;
+    padding: 0px;
 }
 
 .header{
@@ -139,7 +139,7 @@ li{
     font-size: 2em;
     font-weight: bold;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    padding: 7em 0em 0em 8em;
+    padding: 24vh 0em 0em 27vw;
     opacity: .8;
 }
 
@@ -147,9 +147,9 @@ li{
     display: flex;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-weight: bold;
-    padding-top: 2em;
+    padding-top: 3em;
     gap: 60px;
-    padding-left: 12em;
+    padding-left: 22vw;
     opacity: .8;
 }
 
@@ -177,7 +177,7 @@ li a{
 }
 
 .product video{
-    width: 100vw;
+    width: 100%;
 }
 
 .product .text {
@@ -261,6 +261,192 @@ li a{
     color: #5fb414;
   }
 
-  .product .text-2 .links-2 a:first-child {
-    margin-right: 35px;
+.product-2{
+    position: relative;
+    height: var(--content-height);
+    background-color: var(--background-color,#fbfbfd);
+
+}
+.mac-air{
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+}
+
+.subhead-mac{
+    margin-top: 6px;
+    font-size: 28px;
+    line-height: 1.1072228571;
+    font-weight: 400;
+    letter-spacing: .004em;
+}
+
+ a.unit-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.copy-wrapper {
+    position: relative;
+    z-index: 4;
+    pointer-events: none;
+    text-align: center;
+    padding-top: 31px;
+    margin-top: 10px;
+}
+
+.cta-links {
+    display: inline-block;
+    margin-top: 0.65em;
+}
+
+.typography-hero-cta {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+cta-links a:not(:only-child):first-child {
+    margin-left: -4px;
+}
+
+a:not(.unit-link) {
+    z-index: 4;
+}
+
+ a {
+    pointer-events: all;
+}
+
+a.icon-wrapper {
+    text-decoration: none;
+}
+
+.link, a {
+    color: #06c;
+    letter-spacing: inherit;
+}
+
+.cta-links a:not(:only-child):not(:first-child) {
+    margin-left: 35px;
+}
+
+.macbook-air-lockup {
+    width: 658px;
+    height: 400px;
+    background-size: 658px 400px;
+    background-repeat: no-repeat;
+    background-image: url(../images/macbookair_hw__enqse6975066_large.jpg);
+    position: relative;
+    left: 50%;
+    margin-left: -329px;
+    margin-top: 38px;
+}
+
+.startframe-macbook-air {
+    width: 524px;
+    height: 340px;
+    background-size: 524px 340px;
+    background-repeat: no-repeat;
+    background-image: url(../images/macbook_startframe__gln0ce3baiq2_large.jpg);
+}
+
+.endframe-macbook-air, .macbook-air-video, .startframe-macbook-air {
+    -webkit-mask-image: url(/v/home/takeover/d/images/overview/macbookair_mask__dja9qg5rvhkm_large.png);
+    mask-image: url(/v/home/takeover/d/images/overview/macbookair_mask__dja9qg5rvhkm_large.png);
+    -webkit-mask-size: 524px 340px;
+    mask-size: 524px 340px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    position: absolute;
+    top: 14px;
+    left: 67px;
+}
+
+.ended-once .endframe-macbook-air {
+    opacity: 1;
+}
+
+.frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.endframe-macbook-air {
+    width: 524px;
+    height: 340px;
+    background-size: 524px 340px;
+    background-repeat: no-repeat;
+    background-image: url(../images/macbook_endframe__emppqi9xta6a_large.jpg);
+    opacity: 0;
+}
+
+.macbook-air-lockup video {
+    width: 524px;
+    margin-left: 67px;
+    margin-top: 16px;s
+}
+
+.macbook-air-lockup video, .unit-video-container video {
+    transition: opacity 500ms;
+}
+
+.unit-video {
+    display: block;
+}
+
+.hero video{
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    margin-top: 20px;
   }
+  
+.hero .text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+}
+  
+.hero img {
+    height: 20%;
+  }
+  
+.hero video {
+    width: 100vw;
+  }
+  
+.hero button {
+    appearance: none;
+    border: none;
+    background: white;
+    color: #1d1d1f;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 980px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
