@@ -450,3 +450,35 @@ a.icon-wrapper {
     margin-bottom: 30px;
   }
   
+.column-section-item{
+    color: #1d1d1f;
+    font-size: 11px;
+    margin-top: 2em;
+    margin-right: -4em;
+    white-space: nowrap;
+}
+
+.footer-nav{
+    display: flex;
+    margin-top: 1px;
+    border-top: 1px solid #00000082;
+    margin-left: 113px;
+    margin-right: 50px;
+    opacity: .8;
+    gap: 135px;
+    padding-top: 52px;
+    margin-bottom: 46px;
+    justify-content: center;
+    border-bottom: 1px solid #00000082;
+    padding-bottom: 34px;
+}
+
+.inside-elements{
+    display: none;
+}
+
+.shopie{
+    font-size: 12px;
+    padding-top: 1em;
+    white-space: nowrap;
+}
